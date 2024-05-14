@@ -1,8 +1,135 @@
 .page{
-    min-width: 1100px;
-    max-width: 1600px;
-    margin: 0 auto;
-    font-family: Inter, Arial, sans-serif;
+min-width:1100px;
+max-width: 1600px;
+margin: 0 auto;
+font-family: "Inter", "Atrial" , sans-serif;
+font-size: 16px;
+line-height: 20px;
+
+}
+
+.header{
+   padding: 30px 80px 40px;
+   min-height: 720px;
+   max-width: 800px;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__logo{
+    position: relative;
+    left: -50px;
+    width: 105px;
+    height: 39px  ;
+
+}
+.nav__links{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    list-style: none;
+
+} 
+.nav__link{
+    color: black;
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    margin-top: 30px;
+}
+.header__title{
+     font-size: 60px;
+    line-height: 72px;
+ letter-spacing: -0.6px;
+    font-weight: 500;
+    font-family: "Inter";
+    font-style: normal;
+    max-width: 729px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+
+}
+.header__description{
+    max-width: 683px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0 0;
+    
+
+
+}
+
+.header__span-accent{
+    display: block;
+   font-size: 60px;
+    line-height: 72px;
+    margin: 183px 0 0;
+    letter-spacing: -0.6px;
+    font-weight: 500;
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
+    color: #2f80ed;
+}
+
+.header__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+   
+}
+.header__paragraph{
+    margin: 0;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+.recipes{
+    padding: 100px 80px 215px ;
+}
+.recipes__title{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}
+.recipes__subtitle{
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.recipes__videos{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.recipes__video-caption{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.header__image{
+    position: absolute;
+    top: 124px;
+    right: 5px;
+    height: 568px;
+    width: 646px;
 }
