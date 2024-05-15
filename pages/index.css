@@ -137,8 +137,7 @@ line-height: 20px;
     padding: 100px 0 120px;
     background-color: #d9e7ff;
     background-image:url(/images/background_reservation.svg);
-    size: cover;
-
+    background-size: cover;
 }
 .reservation__title{
     margin: 0 0 80px;
