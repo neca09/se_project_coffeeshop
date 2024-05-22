@@ -1,0 +1,13 @@
+
+.header__span-accent{
+    display: block;
+   font-size: 60px;
+    line-height: 72px;
+    margin: 183px 0 0;
+    letter-spacing: -0.6px;
+    font-weight: 500;
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
+    color: #2f80ed;
+}
