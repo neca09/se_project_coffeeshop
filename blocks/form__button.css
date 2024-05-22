@@ -8,4 +8,5 @@
     max-width: 385px;
     margin-bottom: 32px;
     height: 60px;
+    transition: opacity 0.3s ease-in-out;
 }

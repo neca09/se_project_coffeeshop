@@ -1,0 +1,15 @@
+.about__content{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    max-width: 660px;
+    z-index: 1;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+
+
+}

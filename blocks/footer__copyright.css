@@ -1,0 +1,13 @@
+
+.footer__copyright{
+    padding-left: 80px;
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+    margin-top: 108px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}

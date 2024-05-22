@@ -27,257 +27,29 @@
 @import url(../blocks/form__button.css);
 @import url(../blocks/form__button:hover.css);
 @import url(../blocks/card__footer.css);
-
-
-
-.menu{
-    padding: 100px 0 100px;
-}
-.menu__title{
-    text-align: center;
-    margin: 0 0 24px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-  
-}
-
-.menu__subtitle{
-    text-align: center;
-    margin: 0 0 100px;
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    
-
-}
-.menu__cards{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 100px;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    background-image:url(/images/background_menu.svg);
-    background-size:cover
-    
-}
-.card{
-    width: 540px;
-
-}
-.card__list{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 16px;
-    flex-direction: column;
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-}
-.card__title{
-    margin: 0 0 32px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-
-}
-.card__list-item{
-    margin-top: 16px;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 16px;
- 
-    
-}
-.card__list-divider{
-border-bottom: 1px solid black;
-flex-grow: 1;
-}
-
-.about{
-padding:100px 80px;
-background-color:#0A2850;
-color: aliceblue;
-position: relative;
-overflow: hidden;
-box-sizing: border-box;
-display: flex;
-
-}
-.about__title{
-font-family: "Inter";
-font-size: normal;
-font-weight: 500;
-font-size: 44px;
-line-height: 52px;
-z-index: 1;   
-margin:0;
-max-width: 251px;
-position: relative;
-
-}
-
-.about__content{
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    max-width: 660px;
-    z-index: 1;
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    position: relative;
-
-
-}
-
-
-.about__circle{
-background-color: #2f80ed;
-width: 426px;
-height: 426px;
-border-radius: 50%;
-position: absolute;
-top: -152px;
-left: -129px;
-}
-.about__paragraph{
-    margin: 0 0 20px;
-}
-
-.about__circle_animation_blurred{
-    animation: pulsate 1.3s ease-in-out 0s infinite;
-    z-index: 0;
-}
-@keyframes pulsate{
-    0% {
-        opacity: 0;
-        transform: scale(1);
-
-    }
-    50% {
-        opacity: 0.6;
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1);
-        opacity: 0;
-    }
-}
-
-.footer{
-    background: linear-gradient(180deg,#0A2850 0%,#071931 100%);
-    padding: 20px;
-    color:white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 60px;
-    height: 150px;
-    position: relative;
-}
-.footer__content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 60px 80px 108px 80px;
-   
-}
-
-.footer__logo{
-    font-size: 20px;
-    position: absolute;
-    top: 8px;
-    left: 80px;
-    width: 105px;
-    height: 39px;
-}
-.footer__social-heading{
-    margin-right: 10px;
-    top: 8px;
-    right: 80px;
-    position: absolute;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 20px;
-}
-.footer__list{
-   display: flex;
-   flex-direction: column;
-   align-items: flex-end;
-   position: absolute;
-   top: 28px;
-   right: 80px;
-   list-style: none;
-}
-
-.footer__list-item{
-    margin-bottom: 16px;
-
-} 
-
-.footer__social-link{
-color:white;
-font-family:"Inter";
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-}
-.footer__social-link:hover{
-    color: #c1c1c1;
-}
-.footer__social-icon{
-    margin-right:5px;
-}
-
-.footer__copyright{
-    padding-left: 80px;
-    position: absolute;
-    bottom: 60px;
-    left: 80px;
-    margin-top: 108px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.nav__link{
-    transition:color 0.3s ease-in-out;
-}
-.nav__link:hover{
-    color:#2f80ed
-}
-.form__button{
-    transition: opacity 0.3s ease-in-out;
-}
-.form__button:hover{
-    opacity: 0.7;
-}
-.footer__social-link{
-    transition: color 0.3s ease-in-out;
-}
-.footer__social-link:hover{
-    color: #c1c1c1;
-}
+@import url(../blocks/menu.css);
+@import url(../blocks/menu__tittle.css);
+@import url(../blocks/menu__subtitle.css);
+@import url(../blocks/menu__cards.css);
+@import url(../blocks/card.css);
+@import url(../blocks/card__list.css);
+@import url(../blocks/card__title.css);
+@import url(../blocks/card__list-item.css);
+@import url(../blocks/card__list-divider.css);
+@import url(../blocks/about.css);
+@import url(../blocks/about__title.css);
+@import url(../blocks/about__content.css);
+@import url(../blocks/about__circle.css);
+@import url(../blocks/about__paragraph.css);
+@import url(../blocks/about__circle_animation_blurred.css);
+@import url(../blocks/keyframes_pulsate.css);
+@import url(../blocks/footer.css);
+@import url(../blocks/footer__content.css);
+@import url(../blocks/footer__logo.css);
+@import url(../blocks/footer__social-heading.css);
+@import url(../blocks/footer__list.css);
+@import url(../blocks/footer__social-link.css);
+@import url(../blocks/footer__social-link:hover.css);
+@import url(../blocks/footer__social-icon.css);
+@import url(../blocks/footer__copyright.css);
+@import url(../blocks/nav__link:hover.css);

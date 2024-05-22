@@ -1,0 +1,9 @@
+
+.footer__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 60px 80px 108px 80px;
+   
+}
