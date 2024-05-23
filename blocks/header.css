@@ -1,9 +1,12 @@
 .header{
     padding: 30px 80px 40px;
     min-height: 720px;
-    max-width: 800px;
-    height: 100vh;
     display: flex;
     flex-direction: column;
- 
+    background-color: #ffffff;
+    background-image:url(../images/background_header.svg);
+    background-size: cover;
+    background-position: center;
+    text-align:left;
+    margin-bottom: 80px;
  }
