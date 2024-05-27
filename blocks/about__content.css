@@ -1,8 +1,5 @@
 .about__content{
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 400;
-    max-width: 660px;
+max-width: 660px;
     z-index: 1;
     font-family: "Noto Serif";
     font-style: normal;
@@ -10,8 +7,7 @@
     font-size: 20px;
     line-height: 30px;
     position: relative;
-    margin: auto;
-    padding: 119px 80px 173px;
+    padding: 119px 80px 173px 394px;
 
 
 }

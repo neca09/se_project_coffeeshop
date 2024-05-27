@@ -3,7 +3,5 @@
     display: flex;
     justify-content: space-between;
     margin-top: auto;
-    margin-bottom: 40px;
-    margin-left: 80px;
-   
+    margin: 0px 80px 40px 80px;
 }

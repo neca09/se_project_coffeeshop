@@ -1,9 +1,12 @@
 .header__description{
     max-width: 683px;
-    font-size: 20px;
     line-height: 30px;
     margin: 20px 0 0;
-    
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: 500;
+    font-weight: normal;
+    font-size: 20px;
 
 
 }
