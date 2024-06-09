@@ -1,11 +1,10 @@
 .header__title{
-    font-size: 60px;
+   font-size: 60px;
    line-height: 72px;
-letter-spacing: -0.6px;
+   letter-spacing: -0.6px;
    font-weight: 500;
    font-family: "Inter";
    font-style: normal;
    max-width: 729px;
-   margin-bottom: 20px;
-
+   margin: 183px 0 28px 0;
 }

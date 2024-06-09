@@ -6,3 +6,6 @@
     font-size: 20px;
     line-height: 30px;
 }
+.about__paragraph:last-child{
+    margin-bottom:0;
+}

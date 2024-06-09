@@ -8,7 +8,6 @@
         <meta name="author" content="Software Engineer" />
         <meta name="keywords" content="HTML,CSS"/>
         <link rel="stylesheet" href="pages/index.css"/>
-        <link rel="stylesheet" href="vendor/normalize.css"/>
         <link rel="icon" type="image/x-icon" href="favicon.ico"/>
         <title>Coffe Shop</title>
  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,12 +30,11 @@
           <li><a href="#Contacts" class="nav__link">Contacts</a></li>  
         </ul>
     </nav>
-   <div class="header-content">
+
      <h1 class="header__title">
         <span class="header__span-accent">Specialty Coffee</span> in the Triple Peaks Library
      </h1>
 <p class="header__description">Welcome to our zone We've got the coffee to energize you and the cozy vibes to help you get creative</p>
-   </div>
 </header>
 <div class="header__footer">
       <div>
@@ -46,7 +44,7 @@
     </div>
     <p class="header__paragraph">200 Succes Avenue, The Tower of Triple Peaks</p>
     </div> 
-  </div>
+
 
 
 
@@ -56,53 +54,42 @@
         <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
         <div class="recipes__videos">
             <div>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j6VlT_jUVPc?si=yJ2SLVtT3ZdjM8Ow&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="iframe" src="https://www.youtube-nocookie.com/embed/j6VlT_jUVPc?si=yJ2SLVtT3ZdjM8Ow&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p class="recipes__video-caption">
                 <span>Aeropress recipes</span><span>-5 min</span></p>
             </div>
             <div>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/st571DYYTR8?si=ORH5cGNvb9GcvJTp&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="iframe" src="https://www.youtube-nocookie.com/embed/st571DYYTR8?si=ORH5cGNvb9GcvJTp&amp;controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <p class="recipes__video-caption">French press recipes -15 min</p>
-
-            <section id="Recipes">
-                <h2> </h2>
-            </section>
-            <section id="Book-a-table">
-                <h2> </h2>
-            </section>
-            <section id="Menu">
-                <h2> </h2>
-            </section>
-            <section id="Contacts">
-                <h2> </h2>
-            </section>
-        </div>
+<section id="recipes"></section>
+<section id="#Book-a-table"></section>
+<section id="menu"></section>
+<section id="Contacts"></section>
+            </div>
         </div>
     </section>
-   
     <section class="reservation">
     <h2 class="reservation__title">Book a table</h2>
     <form action="#" class="reservation__form form">
     <fieldset class="form__fieldset">
-        <div class="card"><div class="card__footer">
+        <div class="form__label">
+            <div class="card"><div class="card__footer">
         Name *<input type="text" placeholder="Name-Surname" class="form__input"/>
         </div>
         </div>
         <div class="card"><div class="card__footer">
         Number of guest *<input type="number" placeholder="1-8" class="form__input"/>
         </div>
-        </div>
         <div class="card"><div class="card__footer">
         Date & Time *<input type="datetime-local" class="form__input"/>
-        </div>
         </div>
         <div class="card"><div class="card__footer">
         Your email *<input type="email" placeholder="email@email.com" class="form__input"/>
         </div>
-        </div>
     <button class="form__button">Book a Table</button>
-    <label for="check" class="form__label form__label_type_checkbox"></label>
+    <label for="check" class="form__label form__label_type_checkbox">
         <input type="checkbox" class="form__checkbox" id="check" name="I agree with terms of use">I agree with terms of use
+    </label>
 </fieldset>
     </form>
     </section>
@@ -171,7 +158,7 @@
        <div class="about__circle"></div>
        <div class="about__circle 
        about__circle_animation_blurred"></div> 
-        <h1 class="about__title">About the coffee shop</h1>
+        <h2 class="about__title">About the coffee shop</h2>
         <div class="about__content">
             <p class="about__paragraph">
                 Our coffee shop is located in the Triple Peaks Library. It features 6
@@ -184,12 +171,12 @@
         </div>
      </section>
 <footer class="footer">
-<div class="footer__content">
     <div class="footer__logo">
         <img class="footer__logo" src="./images/logo_coffeeshop_light.svg"
         alt="Triple Espresso"/>
-    </div>
-<div class="footer__social-heading"> Social media
+</div>
+<div class="footer__content">
+<div class="footer__social-heading">Social Media
 </div>
 <ul class="footer__list">
     <li class="footer__list-item">

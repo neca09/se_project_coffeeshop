@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
 @import url(../blocks/nav.css);
@@ -54,8 +55,8 @@
 @import url(../blocks/footer__copyright.css);
 @import url(../blocks/nav__link:hover.css);
 @import url(../blocks/body.css);
-@import url(../blocks/h1\,h2\,h3\,h4\,h5.css);
-
+@import url(../blocks/form__checkbox.css);
+@import url(../blocks/iframe.css);
 
   
 

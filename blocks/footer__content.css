@@ -1,9 +1,6 @@
 
 .footer__content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    flex-direction: column;
     padding: 60px 80px 108px 80px;
-   
-}
+    display:flex
+   }

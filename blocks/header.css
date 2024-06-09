@@ -8,5 +8,7 @@
     background-size: cover;
     background-position: center;
     text-align:left;
-    margin-bottom: 80px;
+    height:100vh;
+    max-height: 800px;
+    box-sizing: border-box;
  }
