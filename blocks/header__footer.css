@@ -1,7 +1,6 @@
 .header__footer{
+margin: auto 80px 40px 80px;
+align-items: flex-end;
+z-index: 2;
 display: flex;
-justify-content: space-between;
-margin-top: auto;
-margin:0 80px 40px 80px;
-flex-direction: column;
 }
