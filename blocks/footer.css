@@ -6,3 +6,66 @@
     display: flex;
     justify-content: space-between;
 }
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    padding: 0;
+    top: 28px;
+    right:80px
+    gap: 16px;
+ }
+ .footer__logo{
+    padding: 60px 0 0 40px;
+    max-width: 105px;
+    max-height: 39px;
+}
+.footer__content{
+    flex-direction: column;
+    padding: 60px 80px 108px 80px;
+    display:flex
+}
+.footer__copyright{
+    position: absolute;
+    bottom: 60px;
+    left:0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 80px;
+}
+.footer__list-item{
+    margin:0;
+} 
+.footer__social-icon{
+    margin-right:5px;
+    max-width: 105px;
+    max-height: 39px;
+}
+.footer__social-link{
+    color:white;
+    font-family:"Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    transition: color 0.3s ease-in-out;
+    gap: 10px;
+    display: flex;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+.footer__social-heading{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 60px;
+}
+.footer__social-link:hover{
+    color: #c1c1c1;
+}

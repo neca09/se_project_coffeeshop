@@ -5,3 +5,15 @@
     background-size: cover;
     background-position: center;
 }
+.reservation__form{
+    margin: 0 auto;
+}
+.reservation__title{
+    margin: 0 0 80px;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}

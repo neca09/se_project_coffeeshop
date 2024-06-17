@@ -4,3 +4,30 @@
     background-size: cover;
     background-position: center;
 }
+.menu__title{
+    text-align: center;
+    margin: 0 0 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}
+.menu__subtitle{
+    text-align: center;
+    margin: 0 0 100px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+.menu__cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
