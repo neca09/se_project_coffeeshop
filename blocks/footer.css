@@ -5,6 +5,7 @@
     position:relative;
     display: flex;
     justify-content: space-between;
+    padding:60px 80px 60px 80px;
 }
 .footer__list{
     display: flex;
@@ -17,14 +18,12 @@
     gap: 16px;
  }
  .footer__logo{
-    padding: 60px 0 0 40px;
     max-width: 105px;
     max-height: 39px;
 }
 .footer__content{
     flex-direction: column;
-    padding: 60px 80px 108px 80px;
-    display:flex
+    padding-bottom: 108px;
 }
 .footer__copyright{
     position: absolute;
@@ -37,9 +36,6 @@
     line-height: 20px;
     padding-left: 80px;
 }
-.footer__list-item{
-    margin:0;
-} 
 .footer__social-icon{
     margin-right:5px;
     max-width: 105px;
@@ -64,7 +60,7 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 60px;
+    margin-bottom: 20px;
 }
 .footer__social-link:hover{
     color: #c1c1c1;

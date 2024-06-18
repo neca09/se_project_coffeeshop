@@ -45,6 +45,7 @@
     width: 20px;
     height: 20px;
     padding: 32px 0 120px 0;
+    border-radius: 2px;
 }
 .form__fieldset{
     padding: 0;
