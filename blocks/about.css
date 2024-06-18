@@ -55,7 +55,7 @@
 }
 .about__paragraph{
     margin: 0 0 20px;
-    font-family: "Noto Serif";
+    font-family: Inter,Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
