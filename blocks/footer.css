@@ -1,32 +1,26 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: white;
-  text-align: center;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
   padding: 60px 80px 60px 80px;
 }
 .footer__list {
-  display: flex;
   flex-direction: column;
   align-items: flex-end;
   list-style: none;
   padding: 0;
   top: 28px;
   right: 80px;
-  gap: 16px;
 }
 .footer__logo {
   max-width: 105px;
   max-height: 39px;
 }
 .footer__content {
-  flex-direction: column;
-  padding-bottom: 108px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 108px;
 }
 .footer__copyright {
-  position: absolute;
   bottom: 60px;
   left: 0;
   font-family: "Inter";
@@ -34,7 +28,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  padding-left: 80px;
+  margin: 0;
 }
 .footer__social-icon {
   margin-right: 5px;
@@ -61,6 +55,7 @@
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 .footer__social-link:hover {
   color: #c1c1c1;
