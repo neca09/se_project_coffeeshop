@@ -6,21 +6,23 @@
 }
 .menu__title {
   text-align: center;
-  margin: 0 0 24px;
+  margin: auto auto 24px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  max-width: 780px;
 }
 .menu__subtitle {
   text-align: center;
-  margin: 0 0 100px;
+  margin: auto auto 100px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 780px;
 }
 .menu__cards {
   display: flex;

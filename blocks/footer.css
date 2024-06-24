@@ -8,8 +8,8 @@
   align-items: flex-end;
   list-style: none;
   padding: 0;
-  top: 28px;
-  right: 80px;
+  gap: 16px;
+  display: flex;
 }
 .footer__logo {
   max-width: 105px;
@@ -21,8 +21,6 @@
   margin-bottom: 108px;
 }
 .footer__copyright {
-  bottom: 60px;
-  left: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -45,7 +43,6 @@
   transition: color 0.3s ease-in-out;
   gap: 10px;
   display: flex;
-  margin-bottom: 16px;
   text-decoration: none;
 }
 .footer__social-heading {
