@@ -18,6 +18,7 @@
   font-weight: normal;
   font-style: normal;
   font-family: "Inter", Arial, sans-serif;
+  border: 1px solid #838383;
 }
 .form__label {
   margin: 0;
