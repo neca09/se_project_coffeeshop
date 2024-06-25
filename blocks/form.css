@@ -12,7 +12,6 @@
   max-width: 385px;
   margin-bottom: 32px;
   height: 60px;
-  color: #838383;
   line-height: 30px;
   font-size: 20px;
   font-weight: normal;
@@ -20,6 +19,10 @@
   font-family: "Inter", Arial, sans-serif;
   border: 1px solid #838383;
 }
+.form__input::placeholder {
+  color: #838383;
+}
+
 .form__label {
   margin: 0;
   display: block;
